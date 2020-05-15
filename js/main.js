@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$.ajax({
 		url: 'https://randomuser.me/api/',
-		data:{results: 3},
+		data:{results: 100},
 		dataType: 'json',
 		success: function(data) {
 		//     console.log(typeof(data));
