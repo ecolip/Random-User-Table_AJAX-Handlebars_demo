@@ -9,7 +9,7 @@ $(document).ready(function(){
 			
 			var result = data.results;
 		//   console.log(result);
-			$.each(result, function(index, user){
+			$.each(result, function(index, user){ //result=[{},{},{},{},....]  user={}
 			var name = user.name.title+' '+user.name.first+' '+user.name.last;
 			var age = user.dob.age;
 			var phone = user.phone;
